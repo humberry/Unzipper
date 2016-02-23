@@ -2,7 +2,7 @@
 
 import ui, FilePicker, os, zipfile, datetime, console
 
-class Unzipper(object):
+class PhoneUnzipper(object):
 
     def __init__(self):
         self.v = ui.load_view('PhoneUnzipper')
@@ -93,4 +93,4 @@ class Unzipper(object):
         lst.delete_enabled = False
         lst.font = ('Courier', 16)
         
-Unzipper()
+PhoneUnzipper()
