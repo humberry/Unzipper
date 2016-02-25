@@ -18,7 +18,7 @@ class PhoneUnzipper(object):
         self.tf_info = self.view['tf_info']
         self.tv_archive = self.view['tv_archive']
         self.tv_archive.allows_multiple_selection = True
-        self.v.present('full_screen')
+        self.v.present('full_screen', title_color='blue', orientations=['portrait'])
         self.zfile = ''
         self.targetdir = ''
         self.encrypted_files = False
